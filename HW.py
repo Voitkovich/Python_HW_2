@@ -41,16 +41,16 @@ print(f'Для n = {n} Последовательность:{my_list}')
 # -Для n=4 {1: 2, 2: 2.25, 3: 2.37, 4: 2.44}
 # Сумма 9.06
 
-# number = int(input('Введите число: '))
+number = int(input('Введите число: '))
 
-# New_list = [] 
+New_list = [] 
 
-# for i in range(1, number+1):
+for i in range(1, number+1):
 
-#     New_list.append((1 + 1/i)**i)
+     New_list.append((1 + 1/i)**i)
 
-# print(f'N = {number} --->{New_list}')
-# print(f'Сумма: {round(sum(New_list), 2)}')
+print(f'N = {number} --->{New_list}')
+print(f'Сумма: {round(sum(New_list), 2)}')
 
 # Задача 4. Реализуйте алгоритм перемешивания списка.  
 # import random
