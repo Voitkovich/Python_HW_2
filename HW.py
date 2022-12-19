@@ -7,14 +7,14 @@
 # - 6782 -> 23
 # - 0,56 -> 11
 
-# n = float(input())
-# sum = 0
+n = float(input())
+sum = 0
 
-# while n > 0:
-#     digit = n % 10
-#     sum += digit
-#     n //= 10
-# print('->', sum)    
+while n > 0:
+     digit = n % 10
+     sum += digit
+     n //= 10
+print('->', sum)    
 
       
 
