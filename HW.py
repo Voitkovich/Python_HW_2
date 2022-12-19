@@ -53,7 +53,7 @@ print(f'N = {number} --->{New_list}')
 print(f'Сумма: {round(sum(New_list), 2)}')
 
 # Задача 4. Реализуйте алгоритм перемешивания списка.  
-# import random
-# list = [2, 4,6, 34, 78, 99]
-# random.shuffle(list)
-# print("Перемешанный список: ", list)
+import random
+list = [2, 4,6, 34, 78, 99]
+random.shuffle(list)
+print("Перемешанный список: ", list)
