@@ -24,15 +24,15 @@ print('->', sum)
 # - пусть N = 4, тогда [ 1, 2, 6, 24 ] (1, 1*2, 1*2*3, 1*2*3*4)
 
 
-# n = int(input())  
+n = int(input())  
       
-# my_list = [] 
-# factorial = 1 
-# for i in range(1, n+1):
-#     factorial *=i
-#     my_list.append(factorial)
+my_list = [] 
+factorial = 1 
+for i in range(1, n+1):
+     factorial *=i
+     my_list.append(factorial)
 
-# print(f'Для n = {n} Последовательность:{my_list}')
+print(f'Для n = {n} Последовательность:{my_list}')
 
 
 # Задача 3. Задайте список из n чисел последовательности (1 + 1/n) ** n и выведите на экран их сумму.
